@@ -1,21 +1,17 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+.App {text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+
+
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fcf2d5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,16 +19,49 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-body {background-color: #fff9c4;min-height: 100vh;display: flex;
+  flex-direction: column;align-items: center;font-size: calc(10px + 2vmin);color: rgb(0, 0, 0);
+ 
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+
+/* nav bar style start*/
+.navbar {
+  display: flex;
+  background-color: #0A9396;
+  width: 90%;
+  justify-content: flex-end;
+  margin-top: 20px;
+
 }
+
+
+
+
+/*hero container start
+  -remove border */
+.heroContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid black;
+} */
+
+/* .heroInfo {
+  /* border: 1px solid black; */
+  
+}
+.heroImageContainer {}
+  /* border: 1px solid black; */
+/* } */ 
+
+.heroImage {
+  border-radius: 70px;
+}
+/*hero container end */
+
+
